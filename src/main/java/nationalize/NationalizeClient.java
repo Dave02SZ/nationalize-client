@@ -6,6 +6,8 @@ import feign.Feign;
 import feign.Param;
 import feign.RequestLine;
 import feign.gson.GsonDecoder;
+import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 public interface NationalizeClient {
 
